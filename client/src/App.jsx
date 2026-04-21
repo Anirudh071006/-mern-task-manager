@@ -7,7 +7,7 @@ function App() {
 
   // TEMP: store token (later we’ll replace this with login UI)
   useEffect(() => {
-    localStorage.setItem("token", "PASTE_YOUR_TOKEN_HERE");
+    localStorage.setItem("token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZTc1MTc4OWUyNjBkMDI2YmQ4YTgyMCIsImlhdCI6MTc3Njc2NzQyMSwiZXhwIjoxNzc3MzcyMjIxfQ.eC2m5N1u6cCqXG_HFx1l7mUiUT-1jtnm8iDD_UlWPTI");
   }, []);
 
   useEffect(() => {
